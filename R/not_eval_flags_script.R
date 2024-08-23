@@ -20,7 +20,7 @@ depl_2 <- readRDS("R:/data_branches/water_quality/processed_data/qc_data/halifax
 
 # Serial Number and Deployment Range column are renamed to store the previous (true) values
 # Data must be grouped by sensor depth so that the new temporary serial numbers are by depth (not by sensor type)
-# The deployment range must also be manually changed since qc_test_rolling_sd groups by deployment_range (separating the deployments despite wanting them put together)
+# The deployment r    ange must also be manually changed since qc_test_rolling_sd groups by deployment_range (separating the deployments despite wanting them put together)
 
 filtered_test_dat <- rbind(depl_1, depl_2) %>%
   #filter(timestamp_utc > "2018-09-10 00:00:00" & timestamp_utc < "2018-09-18 00:00:00") %>% #Optional filtering to zoom in on the deployment change in the plots
