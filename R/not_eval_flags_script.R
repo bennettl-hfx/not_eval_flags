@@ -1,5 +1,3 @@
-# DD TEST change
-
 # Combining subsequent deployments and reapplying QC Flags
 # 2024-07-25, Author: LB
 
